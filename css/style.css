@@ -304,41 +304,42 @@ heading span{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 1rem 0;
+    flex-direction: column;
 }
 
+
 .portfolio .box-container .box{
-    height: 28rem;
-    width: 26rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    overflow: hidden;
     cursor: pointer;
-    padding: 2rem 0;
-    border: solid 2px; 
     color: var(--springGreen);
+    position: relative;
+    margin: 4rem 1rem;
 }
 
 .portfolio .box-container .box img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    max-height: 500px;
+    max-width: 650px;
+    border: solid 2px;
+    color: var(--springGreen);
 }
 
-.portfolio .box-container .box:hover img{
-    transform: scale(1.2);
-}
 
 .portfolio .box-container .box h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
+    margin: 2px;
 }
 
-.portfolio .box-container .box span{
-font-size: 1.5rem;
-color: var(--springGreen);
+.portfolio .box-container .box p{
+    color: #fff;
+    margin: 2px;
 }
 
-
+.portfolio .box-container .box a{
+    font-size: 2rem;
+    color: var(--springGreen);
+    text-decoration: underline;
+}
 
 /* End portfolio section CSS*/
 
