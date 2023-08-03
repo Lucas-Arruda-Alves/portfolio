@@ -305,34 +305,36 @@ heading span{
     justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0;
-    flex-direction: column;
+    padding-left: 3rem;
 }
 
 
 .portfolio .box-container .box{
-    cursor: pointer;
-    color: var(--springGreen);
+    width: 27rem;
+    margin: 2rem 2rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid #fff;
     position: relative;
-    margin: 4rem 1rem;
 }
 
 .portfolio .box-container .box img{
-    max-height: 500px;
-    max-width: 650px;
-    border: solid 2px;
-    color: var(--springGreen);
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-right: 4rem;
+    position: relative;
 }
 
 
 .portfolio .box-container .box h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fff;
-    margin: 2px;
+    padding-top: 1.5rem;
 }
 
 .portfolio .box-container .box p{
-    color: #fff;
-    margin: 2px;
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
 }
 
 .portfolio .box-container .box a{
