@@ -309,10 +309,11 @@ heading span{
 }
 
 .portfolio .box-container .box {
-    width: 27rem;
+    width: 30rem;
     margin: 2rem 2rem;
     padding: 2rem;
-    border: 0.2rem solid #fff;
+    border: 0.2rem solid;
+    color: var(--springGreen);
     position: relative;
     overflow: hidden; /* Para esconder o excesso de conteúdo */
 }
@@ -320,6 +321,8 @@ heading span{
 .portfolio .box-container .box img {
     width: 100%; /* A imagem ocupará 100% da largura da caixa */
     height: auto; /* A altura é ajustada automaticamente */
+    max-width: 1080px;
+    max-height: 1080px;
     position: relative;
     transition: transform 0.3s ease;
 }
