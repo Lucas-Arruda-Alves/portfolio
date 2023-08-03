@@ -299,7 +299,7 @@ heading span{
 /*End education section CSS*/
 
 /* start portfolio section CSS*/
-.portfolio .box-container{
+.portfolio .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -308,36 +308,39 @@ heading span{
     padding-left: 3rem;
 }
 
-
-.portfolio .box-container .box{
+.portfolio .box-container .box {
     width: 27rem;
     margin: 2rem 2rem;
-    padding-left: 4rem;
-    border-left: 0.2rem solid #fff;
+    padding: 2rem;
+    border: 0.2rem solid #fff;
     position: relative;
+    overflow: hidden; /* Para esconder o excesso de conteúdo */
 }
 
-.portfolio .box-container .box img{
-    width: 27rem;
-    margin: 4rem 1rem;
-    padding-right: 4rem;
+.portfolio .box-container .box img {
+    width: 100%; /* A imagem ocupará 100% da largura da caixa */
+    height: auto; /* A altura é ajustada automaticamente */
     position: relative;
+    transition: transform 0.3s ease;
 }
 
+.portfolio .box-container .box:hover img {
+    transform: scale(1.1);
+}
 
-.portfolio .box-container .box h3{
+.portfolio .box-container .box h3 {
     font-size: 2rem;
     color: #fff;
     padding-top: 1.5rem;
 }
 
-.portfolio .box-container .box p{
+.portfolio .box-container .box p {
     font-size: 1.4rem;
     color: #eee;
     padding: 1rem 0;
 }
 
-.portfolio .box-container .box a{
+.portfolio .box-container .box a {
     font-size: 2rem;
     color: var(--springGreen);
     text-decoration: underline;
