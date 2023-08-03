@@ -305,6 +305,7 @@ heading span{
     justify-content: center;
     flex-wrap: wrap;
     padding: 2rem 0;
+    border: solid var(--springGreen);
 }
 
 .portfolio .box-container .box{
@@ -325,6 +326,19 @@ heading span{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
+
+.portfolio .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.portfolio .box-container .box span{
+font-size: 1.5rem;
+color: var(--springGreen);
+}
+
+
+
 /* End portfolio section CSS*/
 
 /* Start contact section CSS*/
