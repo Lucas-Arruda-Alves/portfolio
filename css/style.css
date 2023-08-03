@@ -299,6 +299,15 @@ heading span{
 /*End education section CSS*/
 
 /* start portfolio section CSS*/
+.portfolio a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--springGreen);
+}
+
+
 .portfolio .box-container {
     display: flex;
     align-items: center;
@@ -310,6 +319,7 @@ heading span{
 
 .portfolio .box-container .box {
     width: 30rem;
+    height: 560px;
     margin: 2rem 2rem;
     padding: 2rem;
     border: 0.2rem solid;
@@ -319,11 +329,13 @@ heading span{
 }
 
 .portfolio .box-container .box img {
-    width: 100%; /* A imagem ocupará 100% da largura da caixa */
-    height: auto; /* A altura é ajustada automaticamente */
-    max-width: 1080px;
-    max-height: 1080px;
-    position: relative;
+    width: auto;
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    border: solid 0.2rem;
+    color: var(--springGreen);
     transition: transform 0.3s ease;
 }
 
