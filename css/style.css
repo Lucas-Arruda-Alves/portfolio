@@ -319,8 +319,8 @@ heading span{
 }
 
 .portfolio .box-container .box img{
-    height: 100%;
-    width: 100%;
+    height: 240 px;
+    width: 416 px;
     object-fit: cover;
 }
 
